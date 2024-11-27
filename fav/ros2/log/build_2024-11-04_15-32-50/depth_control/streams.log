@@ -1,0 +1,48 @@
+[0.016s] Invoking command in '/home/atef/fav/ros2/build/depth_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake /home/atef/fav/ros2/src/depth_control --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/depth_control
+[0.034s] Not searching for unused variables given on the command line.
+[0.170s] -- The C compiler identification is GNU 11.4.0
+[0.325s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.569s] -- Check for working CXX compiler: /bin/c++ - skipped
+[0.569s] -- Detecting CXX compile features
+[0.570s] -- Detecting CXX compile features - done
+[0.578s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.121s] -- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.320s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.456s] -- Configuring done
+[1.461s] -- Generating done
+[1.463s] -- Build files have been written to: /home/atef/fav/ros2/build/depth_control
+[1.472s] Invoked command in '/home/atef/fav/ros2/build/depth_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake /home/atef/fav/ros2/src/depth_control --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/depth_control
+[1.473s] Invoking command in '/home/atef/fav/ros2/build/depth_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/depth_control -- -j6 -l6
+[1.523s] Invoked command in '/home/atef/fav/ros2/build/depth_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/depth_control -- -j6 -l6
+[1.554s] Invoking command in '/home/atef/fav/ros2/build/depth_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/depth_control
+[1.564s] -- Install configuration: ""
+[1.565s] -- Execute custom install script
+[1.565s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/lib/depth_control/depth_calculator.py
+[1.577s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/lib/depth_control/depth_controller.py
+[1.593s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/lib/depth_control/depth_setpoint.py
+[1.606s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/launch/depth_calculator.launch.py
+[1.618s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/launch/depth_control_full.launch.py
+[1.630s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/ament_index/resource_index/package_run_dependencies/depth_control
+[1.642s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/ament_index/resource_index/parent_prefix_path/depth_control
+[1.654s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/ament_prefix_path.sh
+[1.666s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/ament_prefix_path.dsv
+[1.678s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/path.sh
+[1.689s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/path.dsv
+[1.701s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.bash
+[1.718s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.sh
+[1.730s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.zsh
+[1.741s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.dsv
+[1.752s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/package.dsv
+[1.764s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/ament_index/resource_index/packages/depth_control
+[1.781s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/cmake/depth_controlConfig.cmake
+[1.794s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/cmake/depth_controlConfig-version.cmake
+[1.806s] -- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/package.xml
+[1.821s] Invoked command in '/home/atef/fav/ros2/build/depth_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/depth_control

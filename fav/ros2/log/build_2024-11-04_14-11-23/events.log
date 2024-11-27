@@ -1,0 +1,803 @@
+[0.000000] (-) TimerEvent: {}
+[0.000371] (keyboard_control) JobQueued: {'identifier': 'keyboard_control', 'dependencies': OrderedDict()}
+[0.000697] (scenario_msgs) JobQueued: {'identifier': 'scenario_msgs', 'dependencies': OrderedDict()}
+[0.000749] (fav) JobQueued: {'identifier': 'fav', 'dependencies': OrderedDict({'scenario_msgs': '/home/atef/fav/ros2/install/scenario_msgs'})}
+[0.000794] (scenario_msgs) JobStarted: {'identifier': 'scenario_msgs'}
+[0.016938] (keyboard_control) JobStarted: {'identifier': 'keyboard_control'}
+[0.021516] (scenario_msgs) JobProgress: {'identifier': 'scenario_msgs', 'progress': 'cmake'}
+[0.021941] (scenario_msgs) Command: {'cmd': ['/bin/cmake', '/home/atef/fav/ros2/src/fav/scenario_msgs', '--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/scenario_msgs'], 'cwd': '/home/atef/fav/ros2/build/scenario_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/scenario_msgs', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.026473] (keyboard_control) JobProgress: {'identifier': 'keyboard_control', 'progress': 'cmake'}
+[0.027037] (keyboard_control) Command: {'cmd': ['/bin/cmake', '/home/atef/fav/ros2/src/fav/keyboard_control', '--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/keyboard_control'], 'cwd': '/home/atef/fav/ros2/build/keyboard_control', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/keyboard_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.047368] (scenario_msgs) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.047785] (keyboard_control) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.099012] (-) TimerEvent: {}
+[0.135578] (keyboard_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.137803] (scenario_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199163] (-) TimerEvent: {}
+[0.218144] (keyboard_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.219779] (scenario_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.231974] (keyboard_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.233867] (scenario_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299287] (-) TimerEvent: {}
+[0.331753] (keyboard_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.332299] (scenario_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.342996] (keyboard_control) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc - skipped\n'}
+[0.343396] (keyboard_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.344304] (keyboard_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.344632] (scenario_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc - skipped\n'}
+[0.344853] (scenario_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.345432] (scenario_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.349144] (keyboard_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.349569] (scenario_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399420] (-) TimerEvent: {}
+[0.453915] (scenario_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.455691] (keyboard_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.466533] (scenario_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++ - skipped\n'}
+[0.466994] (scenario_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.467504] (scenario_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.470660] (keyboard_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++ - skipped\n'}
+[0.470995] (keyboard_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.471585] (keyboard_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.489902] (scenario_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.490204] (keyboard_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.499586] (-) TimerEvent: {}
+[0.599924] (-) TimerEvent: {}
+[0.700316] (-) TimerEvent: {}
+[0.800739] (-) TimerEvent: {}
+[0.901194] (-) TimerEvent: {}
+[1.001565] (-) TimerEvent: {}
+[1.006192] (keyboard_control) StdoutLine: {'line': b'-- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.023605] (scenario_msgs) StdoutLine: {'line': b'-- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.101715] (-) TimerEvent: {}
+[1.123730] (keyboard_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.129492] (scenario_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.201855] (-) TimerEvent: {}
+[1.208592] (keyboard_control) StdoutLine: {'line': b'-- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.213312] (keyboard_control) StdoutLine: {'line': b'-- Found hippo_control_msgs: 0.0.1 (/opt/ros/jazzy/share/hippo_control_msgs/cmake)\n'}
+[1.218291] (scenario_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.234035] (scenario_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.296858] (keyboard_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.301998] (-) TimerEvent: {}
+[1.322378] (keyboard_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.343844] (scenario_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.357889] (keyboard_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.386150] (keyboard_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402154] (-) TimerEvent: {}
+[1.426417] (scenario_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.434234] (scenario_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.484223] (scenario_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.502212] (-) TimerEvent: {}
+[1.506529] (scenario_msgs) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.602352] (-) TimerEvent: {}
+[1.619748] (keyboard_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.623643] (keyboard_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.624961] (keyboard_control) StdoutLine: {'line': b'-- Build files have been written to: /home/atef/fav/ros2/build/keyboard_control\n'}
+[1.632823] (keyboard_control) CommandEnded: {'returncode': 0}
+[1.633509] (keyboard_control) JobProgress: {'identifier': 'keyboard_control', 'progress': 'build'}
+[1.634543] (keyboard_control) Command: {'cmd': ['/bin/cmake', '--build', '/home/atef/fav/ros2/build/keyboard_control', '--', '-j6', '-l6'], 'cwd': '/home/atef/fav/ros2/build/keyboard_control', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/keyboard_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.697097] (keyboard_control) CommandEnded: {'returncode': 0}
+[1.702504] (-) TimerEvent: {}
+[1.735542] (keyboard_control) JobProgress: {'identifier': 'keyboard_control', 'progress': 'install'}
+[1.747842] (keyboard_control) Command: {'cmd': ['/bin/cmake', '--install', '/home/atef/fav/ros2/build/keyboard_control'], 'cwd': '/home/atef/fav/ros2/build/keyboard_control', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/keyboard_control', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.757635] (keyboard_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.758190] (keyboard_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.758479] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/lib/keyboard_control/keyboard_control_node\n'}
+[1.776563] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/ament_index/resource_index/package_run_dependencies/keyboard_control\n'}
+[1.788456] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/ament_index/resource_index/parent_prefix_path/keyboard_control\n'}
+[1.800539] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/ament_prefix_path.sh\n'}
+[1.802595] (-) TimerEvent: {}
+[1.813534] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/ament_prefix_path.dsv\n'}
+[1.830863] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/path.sh\n'}
+[1.843918] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/path.dsv\n'}
+[1.855132] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.bash\n'}
+[1.867380] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.sh\n'}
+[1.879491] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.zsh\n'}
+[1.892299] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.dsv\n'}
+[1.902743] (-) TimerEvent: {}
+[1.904047] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.dsv\n'}
+[1.921640] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/ament_index/resource_index/packages/keyboard_control\n'}
+[1.934921] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/cmake/keyboard_controlConfig.cmake\n'}
+[1.946444] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/cmake/keyboard_controlConfig-version.cmake\n'}
+[1.962480] (keyboard_control) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.xml\n'}
+[1.978196] (keyboard_control) CommandEnded: {'returncode': 0}
+[2.003478] (-) TimerEvent: {}
+[2.045493] (keyboard_control) JobEnded: {'identifier': 'keyboard_control', 'rc': 0}
+[2.103614] (-) TimerEvent: {}
+[2.203952] (-) TimerEvent: {}
+[2.219863] (scenario_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.304105] (-) TimerEvent: {}
+[2.404500] (-) TimerEvent: {}
+[2.504877] (-) TimerEvent: {}
+[2.605228] (-) TimerEvent: {}
+[2.674852] (scenario_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.705409] (-) TimerEvent: {}
+[2.805803] (-) TimerEvent: {}
+[2.906201] (-) TimerEvent: {}
+[3.006561] (-) TimerEvent: {}
+[3.106932] (-) TimerEvent: {}
+[3.207322] (-) TimerEvent: {}
+[3.307672] (-) TimerEvent: {}
+[3.321073] (scenario_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.336865] (scenario_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.407822] (-) TimerEvent: {}
+[3.430802] (scenario_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /bin/python3  \n'}
+[3.507969] (-) TimerEvent: {}
+[3.608361] (-) TimerEvent: {}
+[3.708724] (-) TimerEvent: {}
+[3.809067] (-) TimerEvent: {}
+[3.909423] (-) TimerEvent: {}
+[4.009765] (-) TimerEvent: {}
+[4.110065] (-) TimerEvent: {}
+[4.210437] (-) TimerEvent: {}
+[4.310817] (-) TimerEvent: {}
+[4.411195] (-) TimerEvent: {}
+[4.511546] (-) TimerEvent: {}
+[4.519263] (scenario_msgs) StdoutLine: {'line': b'-- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.611693] (-) TimerEvent: {}
+[4.656394] (scenario_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.711811] (-) TimerEvent: {}
+[4.720955] (scenario_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.724332] (scenario_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/atef/fav/ros2/build/scenario_msgs\n'}
+[4.739074] (scenario_msgs) CommandEnded: {'returncode': 0}
+[4.739923] (scenario_msgs) JobProgress: {'identifier': 'scenario_msgs', 'progress': 'build'}
+[4.740813] (scenario_msgs) Command: {'cmd': ['/bin/cmake', '--build', '/home/atef/fav/ros2/build/scenario_msgs', '--', '-j6', '-l6'], 'cwd': '/home/atef/fav/ros2/build/scenario_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/scenario_msgs', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.811963] (-) TimerEvent: {}
+[4.844926] (scenario_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.845277] (scenario_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_scenario_msgs\n'}
+[4.912088] (-) TimerEvent: {}
+[5.012448] (-) TimerEvent: {}
+[5.112788] (-) TimerEvent: {}
+[5.174793] (scenario_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.175908] (scenario_msgs) StdoutLine: {'line': b'creating scenario_msgs.egg-info\n'}
+[5.205715] (scenario_msgs) StdoutLine: {'line': b'writing scenario_msgs.egg-info/PKG-INFO\n'}
+[5.206073] (scenario_msgs) StdoutLine: {'line': b'writing dependency_links to scenario_msgs.egg-info/dependency_links.txt\n'}
+[5.206344] (scenario_msgs) StdoutLine: {'line': b'writing top-level names to scenario_msgs.egg-info/top_level.txt\n'}
+[5.206496] (scenario_msgs) StdoutLine: {'line': b"writing manifest file 'scenario_msgs.egg-info/SOURCES.txt'\n"}
+[5.212955] (-) TimerEvent: {}
+[5.262745] (scenario_msgs) StdoutLine: {'line': b'[  1%] Built target scenario_msgs__rosidl_generator_type_description\n'}
+[5.278062] (scenario_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.292553] (scenario_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.304189] (scenario_msgs) StdoutLine: {'line': b"reading manifest file 'scenario_msgs.egg-info/SOURCES.txt'\n"}
+[5.304806] (scenario_msgs) StdoutLine: {'line': b"writing manifest file 'scenario_msgs.egg-info/SOURCES.txt'\n"}
+[5.313073] (-) TimerEvent: {}
+[5.351465] (scenario_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_scenario_msgs_egg\n'}
+[5.413204] (-) TimerEvent: {}
+[5.513554] (-) TimerEvent: {}
+[5.613913] (-) TimerEvent: {}
+[5.714290] (-) TimerEvent: {}
+[5.814630] (-) TimerEvent: {}
+[5.914956] (-) TimerEvent: {}
+[6.015325] (-) TimerEvent: {}
+[6.111677] (scenario_msgs) StdoutLine: {'line': b'[  4%] Built target scenario_msgs__cpp\n'}
+[6.115450] (-) TimerEvent: {}
+[6.215819] (-) TimerEvent: {}
+[6.229289] (scenario_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/polygons_stamped__functions.c.o\x1b[0m\n'}
+[6.229525] (scenario_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/polygons_stamped__type_support.c.o\x1b[0m\n'}
+[6.229622] (scenario_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/polygons_stamped__description.c.o\x1b[0m\n'}
+[6.229707] (scenario_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/viewpoint__type_support.c.o\x1b[0m\n'}
+[6.229790] (scenario_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/viewpoint__description.c.o\x1b[0m\n'}
+[6.229874] (scenario_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/viewpoint__functions.c.o\x1b[0m\n'}
+[6.290728] (scenario_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/viewpoints__functions.c.o\x1b[0m\n'}
+[6.290991] (scenario_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/viewpoints__description.c.o\x1b[0m\n'}
+[6.308152] (scenario_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/msg/detail/viewpoints__type_support.c.o\x1b[0m\n'}
+[6.310403] (scenario_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/srv/detail/move_to_start__description.c.o\x1b[0m\n'}
+[6.315995] (-) TimerEvent: {}
+[6.320288] (scenario_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/srv/detail/move_to_start__functions.c.o\x1b[0m\n'}
+[6.324644] (scenario_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/srv/detail/move_to_start__type_support.c.o\x1b[0m\n'}
+[6.346667] (scenario_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/srv/detail/set_path__description.c.o\x1b[0m\n'}
+[6.352421] (scenario_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/srv/detail/set_path__functions.c.o\x1b[0m\n'}
+[6.353446] (scenario_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_c.dir/rosidl_generator_c/scenario_msgs/srv/detail/set_path__type_support.c.o\x1b[0m\n'}
+[6.416169] (-) TimerEvent: {}
+[6.442768] (scenario_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libscenario_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[6.505090] (scenario_msgs) StdoutLine: {'line': b'[ 25%] Built target scenario_msgs__rosidl_generator_c\n'}
+[6.519227] (-) TimerEvent: {}
+[6.520739] (scenario_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.521598] (scenario_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.521830] (scenario_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.522090] (scenario_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.523588] (scenario_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.529181] (scenario_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.619320] (-) TimerEvent: {}
+[6.719609] (-) TimerEvent: {}
+[6.819889] (-) TimerEvent: {}
+[6.920159] (-) TimerEvent: {}
+[7.023167] (-) TimerEvent: {}
+[7.123418] (-) TimerEvent: {}
+[7.137657] (scenario_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scenario_msgs/msg/polygons_stamped__type_support.cpp.o\x1b[0m\n'}
+[7.138111] (scenario_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scenario_msgs/msg/polygons_stamped__type_support.cpp.o\x1b[0m\n'}
+[7.210634] (scenario_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scenario_msgs/msg/viewpoint__type_support.cpp.o\x1b[0m\n'}
+[7.223535] (-) TimerEvent: {}
+[7.266440] (scenario_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scenario_msgs/msg/viewpoints__type_support.cpp.o\x1b[0m\n'}
+[7.323657] (-) TimerEvent: {}
+[7.326527] (scenario_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scenario_msgs/srv/move_to_start__type_support.cpp.o\x1b[0m\n'}
+[7.326758] (scenario_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scenario_msgs/msg/detail/polygons_stamped__type_support.cpp.o\x1b[0m\n'}
+[7.338547] (scenario_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scenario_msgs/msg/detail/polygons_stamped__type_support.c.o\x1b[0m\n'}
+[7.390558] (scenario_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scenario_msgs/srv/set_path__type_support.cpp.o\x1b[0m\n'}
+[7.398301] (scenario_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scenario_msgs/msg/detail/viewpoint__type_support.c.o\x1b[0m\n'}
+[7.424083] (-) TimerEvent: {}
+[7.445728] (scenario_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scenario_msgs/msg/detail/viewpoints__type_support.c.o\x1b[0m\n'}
+[7.451922] (scenario_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libscenario_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.498820] (scenario_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scenario_msgs/srv/detail/move_to_start__type_support.c.o\x1b[0m\n'}
+[7.510208] (scenario_msgs) StdoutLine: {'line': b'[ 50%] Built target scenario_msgs__rosidl_typesupport_c\n'}
+[7.512093] (scenario_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scenario_msgs/msg/detail/polygons_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[7.521253] (scenario_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scenario_msgs/msg/detail/viewpoint__type_support_c.cpp.o\x1b[0m\n'}
+[7.522486] (scenario_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scenario_msgs/msg/detail/dds_fastrtps/polygons_stamped__type_support.cpp.o\x1b[0m\n'}
+[7.524393] (-) TimerEvent: {}
+[7.569903] (scenario_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scenario_msgs/srv/detail/set_path__type_support.c.o\x1b[0m\n'}
+[7.625340] (-) TimerEvent: {}
+[7.643213] (scenario_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libscenario_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.704429] (scenario_msgs) StdoutLine: {'line': b'[ 56%] Built target scenario_msgs__rosidl_typesupport_introspection_c\n'}
+[7.716290] (scenario_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scenario_msgs/msg/viewpoint__type_support.cpp.o\x1b[0m\n'}
+[7.719268] (scenario_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scenario_msgs/msg/detail/viewpoint__type_support.cpp.o\x1b[0m\n'}
+[7.725463] (-) TimerEvent: {}
+[7.825798] (-) TimerEvent: {}
+[7.926198] (-) TimerEvent: {}
+[7.971793] (scenario_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scenario_msgs/msg/detail/viewpoints__type_support_c.cpp.o\x1b[0m\n'}
+[8.026315] (-) TimerEvent: {}
+[8.128787] (-) TimerEvent: {}
+[8.190201] (scenario_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scenario_msgs/srv/detail/move_to_start__type_support_c.cpp.o\x1b[0m\n'}
+[8.195902] (scenario_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scenario_msgs/srv/detail/set_path__type_support_c.cpp.o\x1b[0m\n'}
+[8.228901] (-) TimerEvent: {}
+[8.257736] (scenario_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scenario_msgs/msg/viewpoints__type_support.cpp.o\x1b[0m\n'}
+[8.307379] (scenario_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scenario_msgs/msg/detail/viewpoints__type_support.cpp.o\x1b[0m\n'}
+[8.314418] (scenario_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scenario_msgs/msg/detail/dds_fastrtps/viewpoint__type_support.cpp.o\x1b[0m\n'}
+[8.329023] (-) TimerEvent: {}
+[8.429452] (-) TimerEvent: {}
+[8.532374] (-) TimerEvent: {}
+[8.632692] (-) TimerEvent: {}
+[8.639085] (scenario_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scenario_msgs/srv/detail/move_to_start__type_support.cpp.o\x1b[0m\n'}
+[8.724618] (scenario_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scenario_msgs/srv/move_to_start__type_support.cpp.o\x1b[0m\n'}
+[8.733329] (-) TimerEvent: {}
+[8.836430] (-) TimerEvent: {}
+[8.876258] (scenario_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scenario_msgs/srv/detail/set_path__type_support.cpp.o\x1b[0m\n'}
+[8.921633] (scenario_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scenario_msgs/msg/detail/dds_fastrtps/viewpoints__type_support.cpp.o\x1b[0m\n'}
+[8.936534] (-) TimerEvent: {}
+[8.946824] (scenario_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scenario_msgs/srv/detail/dds_fastrtps/move_to_start__type_support.cpp.o\x1b[0m\n'}
+[8.947722] (scenario_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libscenario_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.036649] (-) TimerEvent: {}
+[9.075349] (scenario_msgs) StdoutLine: {'line': b'[ 75%] Built target scenario_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.086959] (scenario_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scenario_msgs/srv/detail/dds_fastrtps/set_path__type_support.cpp.o\x1b[0m\n'}
+[9.136772] (-) TimerEvent: {}
+[9.238387] (-) TimerEvent: {}
+[9.259778] (scenario_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/scenario_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scenario_msgs/srv/set_path__type_support.cpp.o\x1b[0m\n'}
+[9.338495] (-) TimerEvent: {}
+[9.438792] (-) TimerEvent: {}
+[9.539106] (-) TimerEvent: {}
+[9.601321] (scenario_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libscenario_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.639271] (-) TimerEvent: {}
+[9.704263] (scenario_msgs) StdoutLine: {'line': b'[ 79%] Built target scenario_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.732638] (scenario_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libscenario_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.739399] (-) TimerEvent: {}
+[9.797248] (scenario_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libscenario_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.831669] (scenario_msgs) StdoutLine: {'line': b'[ 82%] Built target scenario_msgs__rosidl_typesupport_cpp\n'}
+[9.839536] (-) TimerEvent: {}
+[9.898054] (scenario_msgs) StdoutLine: {'line': b'[ 82%] Built target scenario_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.936511] (scenario_msgs) StdoutLine: {'line': b'[ 82%] Built target scenario_msgs\n'}
+[9.939643] (-) TimerEvent: {}
+[9.976297] (scenario_msgs) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.039792] (-) TimerEvent: {}
+[10.140183] (-) TimerEvent: {}
+[10.240548] (-) TimerEvent: {}
+[10.340923] (-) TimerEvent: {}
+[10.441314] (-) TimerEvent: {}
+[10.541683] (-) TimerEvent: {}
+[10.642056] (-) TimerEvent: {}
+[10.699273] (scenario_msgs) StdoutLine: {'line': b'[ 83%] Built target scenario_msgs__py\n'}
+[10.723731] (scenario_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_py.dir/rosidl_generator_py/scenario_msgs/msg/_viewpoints_s.c.o\x1b[0m\n'}
+[10.723929] (scenario_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_py.dir/rosidl_generator_py/scenario_msgs/msg/_viewpoint_s.c.o\x1b[0m\n'}
+[10.723985] (scenario_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_py.dir/rosidl_generator_py/scenario_msgs/srv/_set_path_s.c.o\x1b[0m\n'}
+[10.724037] (scenario_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_py.dir/rosidl_generator_py/scenario_msgs/srv/_move_to_start_s.c.o\x1b[0m\n'}
+[10.726690] (scenario_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs__rosidl_generator_py.dir/rosidl_generator_py/scenario_msgs/msg/_polygons_stamped_s.c.o\x1b[0m\n'}
+[10.742200] (-) TimerEvent: {}
+[10.842543] (-) TimerEvent: {}
+[10.885166] (scenario_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library libscenario_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[10.942686] (-) TimerEvent: {}
+[10.954201] (scenario_msgs) StdoutLine: {'line': b'[ 91%] Built target scenario_msgs__rosidl_generator_py\n'}
+[10.976098] (scenario_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/scenario_msgs/_scenario_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.978750] (scenario_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/scenario_msgs/_scenario_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.983815] (scenario_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/scenario_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/scenario_msgs/_scenario_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.042816] (-) TimerEvent: {}
+[11.084949] (scenario_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/scenario_msgs/scenario_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.089488] (scenario_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/scenario_msgs/scenario_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.089690] (scenario_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/scenario_msgs/scenario_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.118297] (scenario_msgs) StdoutLine: {'line': b'[100%] Built target scenario_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[11.118550] (scenario_msgs) StdoutLine: {'line': b'[100%] Built target scenario_msgs_s__rosidl_typesupport_c\n'}
+[11.118673] (scenario_msgs) StdoutLine: {'line': b'[100%] Built target scenario_msgs_s__rosidl_typesupport_introspection_c\n'}
+[11.130265] (scenario_msgs) CommandEnded: {'returncode': 0}
+[11.142903] (-) TimerEvent: {}
+[11.243184] (-) TimerEvent: {}
+[11.343674] (-) TimerEvent: {}
+[11.359002] (scenario_msgs) JobProgress: {'identifier': 'scenario_msgs', 'progress': 'install'}
+[11.359602] (scenario_msgs) Command: {'cmd': ['/bin/cmake', '--install', '/home/atef/fav/ros2/build/scenario_msgs'], 'cwd': '/home/atef/fav/ros2/build/scenario_msgs', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/scenario_msgs', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.374006] (scenario_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.374555] (scenario_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.374858] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/ament_index/resource_index/rosidl_interfaces/scenario_msgs\n'}
+[11.383779] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/PolygonsStamped.json\n'}
+[11.393290] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/Viewpoint.json\n'}
+[11.411034] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/Viewpoints.json\n'}
+[11.428172] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/srv/MoveToStart.json\n'}
+[11.443823] (-) TimerEvent: {}
+[11.444972] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/srv/SetPath.json\n'}
+[11.462151] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__functions.h\n'}
+[11.470456] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__struct.h\n'}
+[11.479115] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__type_support.h\n'}
+[11.488270] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__functions.h\n'}
+[11.496929] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__struct.h\n'}
+[11.506358] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__type_support.h\n'}
+[11.514849] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__functions.h\n'}
+[11.523970] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__struct.h\n'}
+[11.539823] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__type_support.h\n'}
+[11.543929] (-) TimerEvent: {}
+[11.548936] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/polygons_stamped.h\n'}
+[11.557313] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.565915] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/viewpoint.h\n'}
+[11.574979] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/viewpoints.h\n'}
+[11.583936] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__functions.h\n'}
+[11.600906] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__struct.h\n'}
+[11.610435] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__type_support.h\n'}
+[11.627167] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__functions.h\n'}
+[11.635595] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__struct.h\n'}
+[11.644044] (-) TimerEvent: {}
+[11.644246] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__type_support.h\n'}
+[11.652665] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/move_to_start.h\n'}
+[11.661029] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/set_path.h\n'}
+[11.669723] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/library_path.sh\n'}
+[11.686938] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/library_path.dsv\n'}
+[11.705080] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[11.714171] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__rosidl_typesupport_fastrtps_c.h\n'}
+[11.731802] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__rosidl_typesupport_fastrtps_c.h\n'}
+[11.744207] (-) TimerEvent: {}
+[11.749798] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.762227] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__rosidl_typesupport_fastrtps_c.h\n'}
+[11.770619] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__rosidl_typesupport_fastrtps_c.h\n'}
+[11.789617] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__rosidl_typesupport_introspection_c.h\n'}
+[11.805948] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__rosidl_typesupport_introspection_c.h\n'}
+[11.818354] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__rosidl_typesupport_introspection_c.h\n'}
+[11.826932] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.835491] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__rosidl_typesupport_introspection_c.h\n'}
+[11.844314] (-) TimerEvent: {}
+[11.852244] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__rosidl_typesupport_introspection_c.h\n'}
+[11.870808] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__builder.hpp\n'}
+[11.885616] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__struct.hpp\n'}
+[11.900937] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__traits.hpp\n'}
+[11.916137] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__type_support.hpp\n'}
+[11.930831] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__builder.hpp\n'}
+[11.939653] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__struct.hpp\n'}
+[11.944427] (-) TimerEvent: {}
+[11.954823] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__traits.hpp\n'}
+[11.972646] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__type_support.hpp\n'}
+[11.990754] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__builder.hpp\n'}
+[12.005723] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__struct.hpp\n'}
+[12.023785] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__traits.hpp\n'}
+[12.042363] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__type_support.hpp\n'}
+[12.044545] (-) TimerEvent: {}
+[12.059294] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/polygons_stamped.hpp\n'}
+[12.067981] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.085083] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/viewpoint.hpp\n'}
+[12.099193] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/viewpoints.hpp\n'}
+[12.107742] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__builder.hpp\n'}
+[12.124757] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__struct.hpp\n'}
+[12.141458] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__traits.hpp\n'}
+[12.144662] (-) TimerEvent: {}
+[12.149782] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__type_support.hpp\n'}
+[12.158319] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__builder.hpp\n'}
+[12.167247] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__struct.hpp\n'}
+[12.182004] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__traits.hpp\n'}
+[12.191201] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__type_support.hpp\n'}
+[12.208421] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/move_to_start.hpp\n'}
+[12.226387] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/set_path.hpp\n'}
+[12.243858] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.244794] (-) TimerEvent: {}
+[12.261842] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.276975] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.285368] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.294522] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.303689] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.312940] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/polygons_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.322185] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.330601] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/msg/detail/viewpoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.339947] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/move_to_start__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.344926] (-) TimerEvent: {}
+[12.348464] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/include/scenario_msgs/scenario_msgs/srv/detail/set_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.357737] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/pythonpath.sh\n'}
+[12.366468] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/pythonpath.dsv\n'}
+[12.376585] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.384739] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.394506] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.404918] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.415091] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/__init__.py\n'}
+[12.425221] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/_scenario_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[12.434452] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/_scenario_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.442981] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/_scenario_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.445031] (-) TimerEvent: {}
+[12.451916] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/__init__.py\n'}
+[12.467755] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_polygons_stamped.py\n'}
+[12.485051] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_polygons_stamped_s.c\n'}
+[12.493413] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_viewpoint.py\n'}
+[12.509511] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_viewpoint_s.c\n'}
+[12.517889] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_viewpoints.py\n'}
+[12.526394] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_viewpoints_s.c\n'}
+[12.534964] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/scenario_msgs_s__rosidl_typesupport_c.so\n'}
+[12.545155] (-) TimerEvent: {}
+[12.552559] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/scenario_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.570212] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/scenario_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[12.583195] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/__init__.py\n'}
+[12.593739] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/_move_to_start.py\n'}
+[12.602756] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/_move_to_start_s.c\n'}
+[12.611067] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/_set_path.py\n'}
+[12.619530] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/_set_path_s.c\n'}
+[12.636877] (scenario_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/scenario_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.637331] (scenario_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/scenario_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[12.637850] (scenario_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/scenario_msgs_s__rosidl_typesupport_c.so\n'}
+[12.638114] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/PolygonsStamped.idl\n'}
+[12.645280] (-) TimerEvent: {}
+[12.646732] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/Viewpoint.idl\n'}
+[12.655536] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/Viewpoints.idl\n'}
+[12.671487] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/srv/MoveToStart.idl\n'}
+[12.686910] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/srv/SetPath.idl\n'}
+[12.696113] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/PolygonsStamped.msg\n'}
+[12.713910] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/Viewpoint.msg\n'}
+[12.731919] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/msg/Viewpoints.msg\n'}
+[12.745427] (-) TimerEvent: {}
+[12.749777] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/srv/MoveToStart.srv\n'}
+[12.767680] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/srv/SetPath.srv\n'}
+[12.782202] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/ament_index/resource_index/package_run_dependencies/scenario_msgs\n'}
+[12.791612] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/ament_index/resource_index/parent_prefix_path/scenario_msgs\n'}
+[12.801002] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/ament_prefix_path.sh\n'}
+[12.818996] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/ament_prefix_path.dsv\n'}
+[12.836907] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/path.sh\n'}
+[12.845572] (-) TimerEvent: {}
+[12.853742] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/environment/path.dsv\n'}
+[12.871773] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/local_setup.bash\n'}
+[12.888650] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/local_setup.sh\n'}
+[12.896856] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/local_setup.zsh\n'}
+[12.905631] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/local_setup.dsv\n'}
+[12.922564] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.dsv\n'}
+[12.937508] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/ament_index/resource_index/packages/scenario_msgs\n'}
+[12.945682] (-) TimerEvent: {}
+[12.946955] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[12.955688] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.973463] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.990854] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.008141] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.025184] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.035209] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.045048] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgsConfig.cmake\n'}
+[13.045798] (-) TimerEvent: {}
+[13.054187] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgsConfig-version.cmake\n'}
+[13.062986] (scenario_msgs) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.xml\n'}
+[13.072100] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_generator_c.so\n'}
+[13.072708] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_generator_c.so" to ""\n'}
+[13.072910] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[13.073541] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.073775] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_introspection_c.so\n'}
+[13.074404] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.074690] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_c.so\n'}
+[13.075044] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_c.so" to ""\n'}
+[13.075275] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.075896] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.076095] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[13.076638] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.076847] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_cpp.so\n'}
+[13.077181] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[13.122200] (scenario_msgs) StdoutLine: {'line': b"Listing '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs'...\n"}
+[13.122451] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/__init__.py'...\n"}
+[13.122572] (scenario_msgs) StdoutLine: {'line': b"Listing '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg'...\n"}
+[13.122684] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/__init__.py'...\n"}
+[13.122797] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_polygons_stamped.py'...\n"}
+[13.122905] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_viewpoint.py'...\n"}
+[13.123012] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/msg/_viewpoints.py'...\n"}
+[13.123119] (scenario_msgs) StdoutLine: {'line': b"Listing '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv'...\n"}
+[13.123256] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/__init__.py'...\n"}
+[13.123364] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/_move_to_start.py'...\n"}
+[13.123472] (scenario_msgs) StdoutLine: {'line': b"Compiling '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages/scenario_msgs/srv/_set_path.py'...\n"}
+[13.128130] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_generator_py.so\n'}
+[13.128659] (scenario_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/atef/fav/ros2/install/scenario_msgs/lib/libscenario_msgs__rosidl_generator_py.so" to ""\n'}
+[13.128873] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_generator_cExport.cmake\n'}
+[13.129064] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.129259] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.129401] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.129565] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.129788] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.129986] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_cExport.cmake\n'}
+[13.130172] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.130381] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_generator_cppExport.cmake\n'}
+[13.130583] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.130796] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.130979] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.131168] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.131389] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[13.131589] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/scenario_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.131785] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_generator_pyExport.cmake\n'}
+[13.131969] (scenario_msgs) StdoutLine: {'line': b'-- Installing: /home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake/export_scenario_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.135216] (scenario_msgs) CommandEnded: {'returncode': 0}
+[13.146187] (-) TimerEvent: {}
+[13.246897] (-) TimerEvent: {}
+[13.347333] (-) TimerEvent: {}
+[13.356082] (scenario_msgs) JobEnded: {'identifier': 'scenario_msgs', 'rc': 0}
+[13.356863] (fav) JobStarted: {'identifier': 'fav'}
+[13.370545] (fav) JobProgress: {'identifier': 'fav', 'progress': 'cmake'}
+[13.371004] (fav) Command: {'cmd': ['/bin/cmake', '/home/atef/fav/ros2/src/fav/fav', '--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/fav'], 'cwd': '/home/atef/fav/ros2/build/fav', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/atef/fav/ros2/install/scenario_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/fav', 'PYTHONPATH': '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.379685] (fav) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[13.425961] (fav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.447485] (-) TimerEvent: {}
+[13.493828] (fav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.507448] (fav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.547625] (-) TimerEvent: {}
+[13.590313] (fav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.597843] (fav) StdoutLine: {'line': b'-- Check for working C compiler: /bin/cc - skipped\n'}
+[13.598144] (fav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.598390] (fav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.600685] (fav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.647774] (-) TimerEvent: {}
+[13.711968] (fav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.718942] (fav) StdoutLine: {'line': b'-- Check for working CXX compiler: /bin/c++ - skipped\n'}
+[13.719271] (fav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.719517] (fav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.722699] (fav) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[13.747885] (-) TimerEvent: {}
+[13.848162] (-) TimerEvent: {}
+[13.948434] (-) TimerEvent: {}
+[14.048779] (-) TimerEvent: {}
+[14.107882] (fav) StdoutLine: {'line': b'-- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.148926] (-) TimerEvent: {}
+[14.187722] (fav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.249056] (-) TimerEvent: {}
+[14.249312] (fav) StdoutLine: {'line': b'-- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[14.258631] (fav) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[14.301969] (fav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[14.315959] (fav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[14.331901] (fav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.348915] (fav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.349160] (-) TimerEvent: {}
+[14.430173] (fav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[14.435305] (fav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.449288] (-) TimerEvent: {}
+[14.549629] (-) TimerEvent: {}
+[14.562349] (fav) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[14.590250] (fav) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[14.614315] (fav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.649953] (-) TimerEvent: {}
+[14.688972] (fav) StdoutLine: {'line': b'-- Found hippo_common: 1.0.2 (/opt/ros/jazzy/share/hippo_common/cmake)\n'}
+[14.738042] (fav) StdoutLine: {'line': b'-- Found hippo_control_msgs: 0.0.1 (/opt/ros/jazzy/share/hippo_control_msgs/cmake)\n'}
+[14.750074] (-) TimerEvent: {}
+[14.754512] (fav) StdoutLine: {'line': b'-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[14.770534] (fav) StdoutLine: {'line': b'-- Found scenario_msgs: 0.0.0 (/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake)\n'}
+[14.810835] (fav) StdoutLine: {'line': b'-- Found rviz_2d_overlay_msgs: 1.3.0 (/opt/ros/jazzy/share/rviz_2d_overlay_msgs/cmake)\n'}
+[14.826119] (fav) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[14.850192] (-) TimerEvent: {}
+[14.950528] (-) TimerEvent: {}
+[14.971858] (fav) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.985777] (fav) StdoutLine: {'line': b'-- Generating done\n'}
+[14.987109] (fav) StdoutLine: {'line': b'-- Build files have been written to: /home/atef/fav/ros2/build/fav\n'}
+[14.996301] (fav) CommandEnded: {'returncode': 0}
+[14.997216] (fav) JobProgress: {'identifier': 'fav', 'progress': 'build'}
+[14.998202] (fav) Command: {'cmd': ['/bin/cmake', '--build', '/home/atef/fav/ros2/build/fav', '--', '-j6', '-l6'], 'cwd': '/home/atef/fav/ros2/build/fav', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/atef/fav/ros2/install/scenario_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/fav', 'PYTHONPATH': '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[15.050657] (-) TimerEvent: {}
+[15.077628] (fav) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_marker_publisher.dir/src/robot_marker_publisher.cpp.o\x1b[0m\n'}
+[15.082684] (fav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scenario_node.dir/src/scenario/scenario_node.cpp.o\x1b[0m\n'}
+[15.150780] (-) TimerEvent: {}
+[15.251168] (-) TimerEvent: {}
+[15.351486] (-) TimerEvent: {}
+[15.451777] (-) TimerEvent: {}
+[15.552054] (-) TimerEvent: {}
+[15.652385] (-) TimerEvent: {}
+[15.752650] (-) TimerEvent: {}
+[15.852995] (-) TimerEvent: {}
+[15.953332] (-) TimerEvent: {}
+[16.053649] (-) TimerEvent: {}
+[16.154204] (-) TimerEvent: {}
+[16.254777] (-) TimerEvent: {}
+[16.355106] (-) TimerEvent: {}
+[16.455448] (-) TimerEvent: {}
+[16.555959] (-) TimerEvent: {}
+[16.656353] (-) TimerEvent: {}
+[16.756719] (-) TimerEvent: {}
+[16.857062] (-) TimerEvent: {}
+[16.957439] (-) TimerEvent: {}
+[17.057821] (-) TimerEvent: {}
+[17.158191] (-) TimerEvent: {}
+[17.258530] (-) TimerEvent: {}
+[17.358878] (-) TimerEvent: {}
+[17.459196] (-) TimerEvent: {}
+[17.559532] (-) TimerEvent: {}
+[17.659863] (-) TimerEvent: {}
+[17.760193] (-) TimerEvent: {}
+[17.860608] (-) TimerEvent: {}
+[17.961250] (-) TimerEvent: {}
+[18.061587] (-) TimerEvent: {}
+[18.161935] (-) TimerEvent: {}
+[18.262264] (-) TimerEvent: {}
+[18.362773] (-) TimerEvent: {}
+[18.463309] (-) TimerEvent: {}
+[18.563642] (-) TimerEvent: {}
+[18.663974] (-) TimerEvent: {}
+[18.764371] (-) TimerEvent: {}
+[18.864711] (-) TimerEvent: {}
+[18.965030] (-) TimerEvent: {}
+[19.065393] (-) TimerEvent: {}
+[19.165731] (-) TimerEvent: {}
+[19.266063] (-) TimerEvent: {}
+[19.366403] (-) TimerEvent: {}
+[19.466736] (-) TimerEvent: {}
+[19.567063] (-) TimerEvent: {}
+[19.667405] (-) TimerEvent: {}
+[19.767745] (-) TimerEvent: {}
+[19.868284] (-) TimerEvent: {}
+[19.968610] (-) TimerEvent: {}
+[20.069010] (-) TimerEvent: {}
+[20.169373] (-) TimerEvent: {}
+[20.269702] (-) TimerEvent: {}
+[20.370015] (-) TimerEvent: {}
+[20.470368] (-) TimerEvent: {}
+[20.570697] (-) TimerEvent: {}
+[20.671035] (-) TimerEvent: {}
+[20.771404] (-) TimerEvent: {}
+[20.871733] (-) TimerEvent: {}
+[20.972071] (-) TimerEvent: {}
+[21.072425] (-) TimerEvent: {}
+[21.172949] (-) TimerEvent: {}
+[21.273302] (-) TimerEvent: {}
+[21.373630] (-) TimerEvent: {}
+[21.473956] (-) TimerEvent: {}
+[21.574340] (-) TimerEvent: {}
+[21.674688] (-) TimerEvent: {}
+[21.775440] (-) TimerEvent: {}
+[21.875767] (-) TimerEvent: {}
+[21.976110] (-) TimerEvent: {}
+[22.076486] (-) TimerEvent: {}
+[22.176808] (-) TimerEvent: {}
+[22.277147] (-) TimerEvent: {}
+[22.377498] (-) TimerEvent: {}
+[22.477845] (-) TimerEvent: {}
+[22.578176] (-) TimerEvent: {}
+[22.678516] (-) TimerEvent: {}
+[22.778853] (-) TimerEvent: {}
+[22.879193] (-) TimerEvent: {}
+[22.979525] (-) TimerEvent: {}
+[23.079854] (-) TimerEvent: {}
+[23.180221] (-) TimerEvent: {}
+[23.280595] (-) TimerEvent: {}
+[23.380935] (-) TimerEvent: {}
+[23.481374] (-) TimerEvent: {}
+[23.581842] (-) TimerEvent: {}
+[23.682177] (-) TimerEvent: {}
+[23.782498] (-) TimerEvent: {}
+[23.882826] (-) TimerEvent: {}
+[23.983156] (-) TimerEvent: {}
+[24.083488] (-) TimerEvent: {}
+[24.183805] (-) TimerEvent: {}
+[24.284325] (-) TimerEvent: {}
+[24.384657] (-) TimerEvent: {}
+[24.484981] (-) TimerEvent: {}
+[24.585321] (-) TimerEvent: {}
+[24.685654] (-) TimerEvent: {}
+[24.786040] (-) TimerEvent: {}
+[24.886631] (-) TimerEvent: {}
+[24.931552] (fav) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable robot_marker_publisher\x1b[0m\n'}
+[24.986778] (-) TimerEvent: {}
+[25.087146] (-) TimerEvent: {}
+[25.168080] (fav) StdoutLine: {'line': b'[ 75%] Built target robot_marker_publisher\n'}
+[25.187220] (-) TimerEvent: {}
+[25.287585] (-) TimerEvent: {}
+[25.387964] (-) TimerEvent: {}
+[25.488362] (-) TimerEvent: {}
+[25.588765] (-) TimerEvent: {}
+[25.689180] (-) TimerEvent: {}
+[25.789564] (-) TimerEvent: {}
+[25.889940] (-) TimerEvent: {}
+[25.990330] (-) TimerEvent: {}
+[26.090976] (-) TimerEvent: {}
+[26.191329] (-) TimerEvent: {}
+[26.291673] (-) TimerEvent: {}
+[26.392004] (-) TimerEvent: {}
+[26.492338] (-) TimerEvent: {}
+[26.592667] (-) TimerEvent: {}
+[26.692991] (-) TimerEvent: {}
+[26.793320] (-) TimerEvent: {}
+[26.893643] (-) TimerEvent: {}
+[26.993965] (-) TimerEvent: {}
+[27.094306] (-) TimerEvent: {}
+[27.194848] (-) TimerEvent: {}
+[27.295188] (-) TimerEvent: {}
+[27.395517] (-) TimerEvent: {}
+[27.495840] (-) TimerEvent: {}
+[27.596170] (-) TimerEvent: {}
+[27.696689] (-) TimerEvent: {}
+[27.797295] (-) TimerEvent: {}
+[27.897620] (-) TimerEvent: {}
+[27.997946] (-) TimerEvent: {}
+[28.098275] (-) TimerEvent: {}
+[28.198770] (-) TimerEvent: {}
+[28.299111] (-) TimerEvent: {}
+[28.399451] (-) TimerEvent: {}
+[28.499773] (-) TimerEvent: {}
+[28.600084] (-) TimerEvent: {}
+[28.700473] (-) TimerEvent: {}
+[28.801033] (-) TimerEvent: {}
+[28.901431] (-) TimerEvent: {}
+[29.001761] (-) TimerEvent: {}
+[29.102094] (-) TimerEvent: {}
+[29.202422] (-) TimerEvent: {}
+[29.302736] (-) TimerEvent: {}
+[29.403324] (-) TimerEvent: {}
+[29.503728] (-) TimerEvent: {}
+[29.604107] (-) TimerEvent: {}
+[29.704497] (-) TimerEvent: {}
+[29.804874] (-) TimerEvent: {}
+[29.905211] (-) TimerEvent: {}
+[30.006011] (-) TimerEvent: {}
+[30.106417] (-) TimerEvent: {}
+[30.206797] (-) TimerEvent: {}
+[30.307186] (-) TimerEvent: {}
+[30.407565] (-) TimerEvent: {}
+[30.507941] (-) TimerEvent: {}
+[30.608333] (-) TimerEvent: {}
+[30.708708] (-) TimerEvent: {}
+[30.809086] (-) TimerEvent: {}
+[30.909477] (-) TimerEvent: {}
+[31.009852] (-) TimerEvent: {}
+[31.110426] (-) TimerEvent: {}
+[31.210812] (-) TimerEvent: {}
+[31.311196] (-) TimerEvent: {}
+[31.411570] (-) TimerEvent: {}
+[31.511946] (-) TimerEvent: {}
+[31.612317] (-) TimerEvent: {}
+[31.712715] (-) TimerEvent: {}
+[31.813341] (-) TimerEvent: {}
+[31.913748] (-) TimerEvent: {}
+[32.014133] (-) TimerEvent: {}
+[32.114515] (-) TimerEvent: {}
+[32.214900] (-) TimerEvent: {}
+[32.315277] (-) TimerEvent: {}
+[32.415654] (-) TimerEvent: {}
+[32.516032] (-) TimerEvent: {}
+[32.616495] (-) TimerEvent: {}
+[32.716882] (-) TimerEvent: {}
+[32.817229] (-) TimerEvent: {}
+[32.917607] (-) TimerEvent: {}
+[33.017982] (-) TimerEvent: {}
+[33.118637] (-) TimerEvent: {}
+[33.219028] (-) TimerEvent: {}
+[33.319425] (-) TimerEvent: {}
+[33.419801] (-) TimerEvent: {}
+[33.520203] (-) TimerEvent: {}
+[33.588568] (fav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable scenario_node\x1b[0m\n'}
+[33.620344] (-) TimerEvent: {}
+[33.720728] (-) TimerEvent: {}
+[33.821117] (-) TimerEvent: {}
+[33.853098] (fav) StdoutLine: {'line': b'[100%] Built target scenario_node\n'}
+[33.863634] (fav) CommandEnded: {'returncode': 0}
+[33.907654] (fav) JobProgress: {'identifier': 'fav', 'progress': 'install'}
+[33.908172] (fav) Command: {'cmd': ['/bin/cmake', '--install', '/home/atef/fav/ros2/build/fav'], 'cwd': '/home/atef/fav/ros2/build/fav', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib/hippo_gz_plugins/', 'USER': 'atef', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/home/atef/fav/ros2/install/scenario_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/atef', 'OLDPWD': '/home/atef/fav/ros2/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'atef', '_': '/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin', 'AMENT_PREFIX_PATH': '/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/atef/fav/ros2/build/fav', 'PYTHONPATH': '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[33.921208] (-) TimerEvent: {}
+[33.924553] (fav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.925359] (fav) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.925923] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/lib/fav/scenario_node\n'}
+[33.942791] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/lib/fav/robot_marker_publisher\n'}
+[33.952788] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/scenario.launch.py\n'}
+[33.961564] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation.launch.py\n'}
+[33.970142] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_keyboard_control.launch.py\n'}
+[33.978567] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_tags.launch.py\n'}
+[33.986752] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_tags_and_keyboard_control.launch.py\n'}
+[34.003300] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/package_run_dependencies/fav\n'}
+[34.019800] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/parent_prefix_path/fav\n'}
+[34.021339] (-) TimerEvent: {}
+[34.037997] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/ament_prefix_path.sh\n'}
+[34.055865] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/ament_prefix_path.dsv\n'}
+[34.064715] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/path.sh\n'}
+[34.073037] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/path.dsv\n'}
+[34.081763] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.bash\n'}
+[34.092841] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.sh\n'}
+[34.110510] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.zsh\n'}
+[34.121485] (-) TimerEvent: {}
+[34.123734] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.dsv\n'}
+[34.139029] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/package.dsv\n'}
+[34.147693] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/packages/fav\n'}
+[34.156788] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/cmake/favConfig.cmake\n'}
+[34.165969] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/cmake/favConfig-version.cmake\n'}
+[34.174873] (fav) StdoutLine: {'line': b'-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/package.xml\n'}
+[34.195977] (fav) CommandEnded: {'returncode': 0}
+[34.221612] (-) TimerEvent: {}
+[34.253979] (fav) JobEnded: {'identifier': 'fav', 'rc': 0}
+[34.255080] (-) EventReactorShutdown: {}

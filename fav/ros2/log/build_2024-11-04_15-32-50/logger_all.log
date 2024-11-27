@@ -1,0 +1,365 @@
+[0.376s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build', '--symlink-install', '--cmake-args', '--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']
+[0.376s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75bf11c65dc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75bf11c65a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75bf11c65a30>>, mixin_verb=('build',))
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.456s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/atef/fav/ros2'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/depth_control) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depth_control' with type 'ros.ament_cmake' and name 'depth_control'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/fav) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fav/fav' with type 'ros.ament_cmake' and name 'fav'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/keyboard_control) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fav/keyboard_control' with type 'ros.ament_cmake' and name 'keyboard_control'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/fav/scenario_msgs) by extension 'ros'
+[0.515s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fav/scenario_msgs' with type 'ros.ament_cmake' and name 'scenario_msgs'
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.596s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 362 installed packages in /opt/ros/jazzy
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'cmake_args' from command line to '['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'depth_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'depth_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/fav/ros2/build/depth_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/fav/ros2/install/depth_control', 'merge_install': False, 'path': '/home/atef/fav/ros2/src/depth_control', 'symlink_install': True, 'test_result_base': None}
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_args' from command line to '['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/fav/ros2/build/keyboard_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/fav/ros2/install/keyboard_control', 'merge_install': False, 'path': '/home/atef/fav/ros2/src/fav/keyboard_control', 'symlink_install': True, 'test_result_base': None}
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'cmake_args' from command line to '['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'cmake_target' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'scenario_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'scenario_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/fav/ros2/build/scenario_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/fav/ros2/install/scenario_msgs', 'merge_install': False, 'path': '/home/atef/fav/ros2/src/fav/scenario_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'cmake_args' from command line to '['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'cmake_target' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'cmake_clean_first' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'cmake_force_configure' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'ament_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'fav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.667s] DEBUG:colcon.colcon_core.verb:Building package 'fav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/fav/ros2/build/fav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['--no-warn-unused-cli', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/fav/ros2/install/fav', 'merge_install': False, 'path': '/home/atef/fav/ros2/src/fav/fav', 'symlink_install': True, 'test_result_base': None}
+[0.667s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.669s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atef/fav/ros2/src/fav/scenario_msgs' with build type 'ament_cmake'
+[0.669s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/fav/ros2/src/fav/scenario_msgs'
+[0.680s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.685s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atef/fav/ros2/src/depth_control' with build type 'ament_cmake'
+[0.685s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/fav/ros2/src/depth_control'
+[0.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atef/fav/ros2/src/fav/keyboard_control' with build type 'ament_cmake'
+[0.690s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/fav/ros2/src/fav/keyboard_control'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/scenario_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/scenario_msgs -- -j6 -l6
+[0.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/depth_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake /home/atef/fav/ros2/src/depth_control --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/depth_control
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/keyboard_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/keyboard_control -- -j6 -l6
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/keyboard_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/keyboard_control -- -j6 -l6
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/keyboard_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/keyboard_control
+[0.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_control)
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/keyboard_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/keyboard_control
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control' for CMake module files
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control' for CMake config files
+[0.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'cmake_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/hook/cmake_prefix_path.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/hook/cmake_prefix_path.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/hook/cmake_prefix_path.sh'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/lib'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/bin'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/lib/pkgconfig/keyboard_control.pc'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/lib/python3.12/site-packages'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/bin'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.sh'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.bash'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.zsh'
+[0.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/keyboard_control/share/colcon-core/packages/keyboard_control)
+[0.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_control)
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control' for CMake module files
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control' for CMake config files
+[0.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'cmake_prefix_path')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/hook/cmake_prefix_path.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/hook/cmake_prefix_path.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/hook/cmake_prefix_path.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/lib'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/lib/pkgconfig/keyboard_control.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/lib/python3.12/site-packages'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/keyboard_control/bin'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.sh'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.bash'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.zsh'
+[0.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/keyboard_control/share/colcon-core/packages/keyboard_control)
+[1.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/scenario_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/scenario_msgs -- -j6 -l6
+[1.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/scenario_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/scenario_msgs
+[1.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scenario_msgs)
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs' for CMake module files
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/scenario_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/scenario_msgs
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs' for CMake config files
+[1.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('scenario_msgs', 'cmake_prefix_path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/cmake_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/cmake_prefix_path.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/cmake_prefix_path.sh'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/lib'
+[1.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('scenario_msgs', 'ld_library_path_lib')
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/ld_library_path_lib.ps1'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/ld_library_path_lib.dsv'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/ld_library_path_lib.sh'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/bin'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/lib/pkgconfig/scenario_msgs.pc'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages'
+[1.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('scenario_msgs', 'pythonpath')
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/pythonpath.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/pythonpath.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/pythonpath.sh'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/bin'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.sh'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.bash'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.zsh'
+[1.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/scenario_msgs/share/colcon-core/packages/scenario_msgs)
+[1.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scenario_msgs)
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs' for CMake module files
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs' for CMake config files
+[1.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('scenario_msgs', 'cmake_prefix_path')
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/cmake_prefix_path.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/cmake_prefix_path.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/cmake_prefix_path.sh'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/lib'
+[1.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('scenario_msgs', 'ld_library_path_lib')
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/ld_library_path_lib.ps1'
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/ld_library_path_lib.dsv'
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/ld_library_path_lib.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/bin'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/lib/pkgconfig/scenario_msgs.pc'
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages'
+[1.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('scenario_msgs', 'pythonpath')
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/pythonpath.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/pythonpath.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/hook/pythonpath.sh'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/scenario_msgs/bin'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.ps1'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.dsv'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.sh'
+[1.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.bash'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/package.zsh'
+[1.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/scenario_msgs/share/colcon-core/packages/scenario_msgs)
+[1.938s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atef/fav/ros2/src/fav/fav' with build type 'ament_cmake'
+[1.939s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/fav/ros2/src/fav/fav'
+[1.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/fav': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --build /home/atef/fav/ros2/build/fav -- -j6 -l6
+[2.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/fav' returned '0': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --build /home/atef/fav/ros2/build/fav -- -j6 -l6
+[2.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/fav': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --install /home/atef/fav/ros2/build/fav
+[2.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fav)
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav' for CMake module files
+[2.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/fav' returned '0': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --install /home/atef/fav/ros2/build/fav
+[2.145s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav' for CMake config files
+[2.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('fav', 'cmake_prefix_path')
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/fav/share/fav/hook/cmake_prefix_path.ps1'
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/fav/share/fav/hook/cmake_prefix_path.dsv'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/fav/share/fav/hook/cmake_prefix_path.sh'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/lib'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/bin'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/lib/pkgconfig/fav.pc'
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/lib/python3.12/site-packages'
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/bin'
+[2.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.ps1'
+[2.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/fav/share/fav/package.dsv'
+[2.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.sh'
+[2.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.bash'
+[2.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.zsh'
+[2.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/fav/share/colcon-core/packages/fav)
+[2.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/depth_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake /home/atef/fav/ros2/src/depth_control --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/depth_control
+[2.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/depth_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/depth_control -- -j6 -l6
+[2.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fav)
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav' for CMake module files
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav' for CMake config files
+[2.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('fav', 'cmake_prefix_path')
+[2.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/fav/share/fav/hook/cmake_prefix_path.ps1'
+[2.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/fav/share/fav/hook/cmake_prefix_path.dsv'
+[2.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/fav/share/fav/hook/cmake_prefix_path.sh'
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/lib'
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/bin'
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/lib/pkgconfig/fav.pc'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/lib/python3.12/site-packages'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/fav/bin'
+[2.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/fav/share/fav/package.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.sh'
+[2.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.bash'
+[2.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/fav/share/fav/package.zsh'
+[2.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/fav/share/colcon-core/packages/fav)
+[2.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/depth_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/depth_control -- -j6 -l6
+[2.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/fav/ros2/build/depth_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/depth_control
+[2.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_control)
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control' for CMake module files
+[2.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/fav/ros2/build/depth_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/depth_control
+[2.508s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control' for CMake config files
+[2.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_control', 'cmake_prefix_path')
+[2.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/depth_control/share/depth_control/hook/cmake_prefix_path.ps1'
+[2.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/depth_control/share/depth_control/hook/cmake_prefix_path.dsv'
+[2.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/depth_control/share/depth_control/hook/cmake_prefix_path.sh'
+[2.510s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/lib'
+[2.510s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/bin'
+[2.510s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/lib/pkgconfig/depth_control.pc'
+[2.510s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/lib/python3.12/site-packages'
+[2.511s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/bin'
+[2.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.ps1'
+[2.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.dsv'
+[2.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.sh'
+[2.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.bash'
+[2.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.zsh'
+[2.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/depth_control/share/colcon-core/packages/depth_control)
+[2.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_control)
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control' for CMake module files
+[2.542s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control' for CMake config files
+[2.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_control', 'cmake_prefix_path')
+[2.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/depth_control/share/depth_control/hook/cmake_prefix_path.ps1'
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/fav/ros2/install/depth_control/share/depth_control/hook/cmake_prefix_path.dsv'
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/fav/ros2/install/depth_control/share/depth_control/hook/cmake_prefix_path.sh'
+[2.545s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/lib'
+[2.545s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/bin'
+[2.545s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/lib/pkgconfig/depth_control.pc'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/lib/python3.12/site-packages'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/atef/fav/ros2/install/depth_control/bin'
+[2.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.ps1'
+[2.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.dsv'
+[2.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.sh'
+[2.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.bash'
+[2.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/fav/ros2/install/depth_control/share/depth_control/package.zsh'
+[2.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/fav/ros2/install/depth_control/share/colcon-core/packages/depth_control)
+[2.549s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.550s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.550s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.550s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.566s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.567s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[2.567s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/fav/ros2/install/local_setup.ps1'
+[2.569s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atef/fav/ros2/install/_local_setup_util_ps1.py'
+[2.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/fav/ros2/install/setup.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/fav/ros2/install/local_setup.sh'
+[2.575s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atef/fav/ros2/install/_local_setup_util_sh.py'
+[2.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/fav/ros2/install/setup.sh'
+[2.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/fav/ros2/install/local_setup.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/fav/ros2/install/setup.bash'
+[2.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/fav/ros2/install/local_setup.zsh'
+[2.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/fav/ros2/install/setup.zsh'

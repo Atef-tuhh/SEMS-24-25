@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/atef/fav/ros2/build/keyboard_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/keyboard_control -- -j6 -l6
+[0.087s] Invoked command in '/home/atef/fav/ros2/build/keyboard_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/keyboard_control -- -j6 -l6
+[0.126s] Invoking command in '/home/atef/fav/ros2/build/keyboard_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/keyboard_control
+[0.139s] -- Install configuration: ""
+[0.139s] -- Execute custom install script
+[0.139s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/lib/keyboard_control/keyboard_control_node
+[0.139s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/ament_index/resource_index/package_run_dependencies/keyboard_control
+[0.140s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/ament_index/resource_index/parent_prefix_path/keyboard_control
+[0.140s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/ament_prefix_path.sh
+[0.140s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/path.sh
+[0.141s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/environment/path.dsv
+[0.141s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.bash
+[0.141s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.sh
+[0.142s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.zsh
+[0.142s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/local_setup.dsv
+[0.143s] -- Symlinking: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.dsv
+[0.171s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/ament_index/resource_index/packages/keyboard_control
+[0.171s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/cmake/keyboard_controlConfig.cmake
+[0.171s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/cmake/keyboard_controlConfig-version.cmake
+[0.171s] -- Up-to-date symlink: /home/atef/fav/ros2/install/keyboard_control/share/keyboard_control/package.xml
+[0.195s] Invoked command in '/home/atef/fav/ros2/build/keyboard_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/keyboard_control

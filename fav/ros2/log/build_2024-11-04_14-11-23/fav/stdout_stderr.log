@@ -1,0 +1,66 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found hippo_common: 1.0.2 (/opt/ros/jazzy/share/hippo_common/cmake)
+-- Found hippo_control_msgs: 0.0.1 (/opt/ros/jazzy/share/hippo_control_msgs/cmake)
+-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found scenario_msgs: 0.0.0 (/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake)
+-- Found rviz_2d_overlay_msgs: 1.3.0 (/opt/ros/jazzy/share/rviz_2d_overlay_msgs/cmake)
+-- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/atef/fav/ros2/build/fav
+[ 25%] [32mBuilding CXX object CMakeFiles/robot_marker_publisher.dir/src/robot_marker_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/scenario_node.dir/src/scenario/scenario_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable robot_marker_publisher[0m
+[ 75%] Built target robot_marker_publisher
+[100%] [32m[1mLinking CXX executable scenario_node[0m
+[100%] Built target scenario_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/atef/fav/ros2/install/fav/lib/fav/scenario_node
+-- Symlinking: /home/atef/fav/ros2/install/fav/lib/fav/robot_marker_publisher
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/scenario.launch.py
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation.launch.py
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_keyboard_control.launch.py
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_tags.launch.py
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_tags_and_keyboard_control.launch.py
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/package_run_dependencies/fav
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/parent_prefix_path/fav
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/ament_prefix_path.sh
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/ament_prefix_path.dsv
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/path.sh
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/path.dsv
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.bash
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.sh
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.zsh
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.dsv
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/package.dsv
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/packages/fav
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/cmake/favConfig.cmake
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/cmake/favConfig-version.cmake
+-- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/package.xml

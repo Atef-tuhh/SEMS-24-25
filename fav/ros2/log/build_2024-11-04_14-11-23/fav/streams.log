@@ -1,0 +1,72 @@
+[0.014s] Invoking command in '/home/atef/fav/ros2/build/fav': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake /home/atef/fav/ros2/src/fav/fav --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/fav
+[0.023s] Not searching for unused variables given on the command line.
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.137s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.355s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Check for working CXX compiler: /bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.751s] -- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.893s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.902s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.945s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.959s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.975s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.992s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.074s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.079s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.206s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.234s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.332s] -- Found hippo_common: 1.0.2 (/opt/ros/jazzy/share/hippo_common/cmake)
+[1.381s] -- Found hippo_control_msgs: 0.0.1 (/opt/ros/jazzy/share/hippo_control_msgs/cmake)
+[1.398s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.414s] -- Found scenario_msgs: 0.0.0 (/home/atef/fav/ros2/install/scenario_msgs/share/scenario_msgs/cmake)
+[1.454s] -- Found rviz_2d_overlay_msgs: 1.3.0 (/opt/ros/jazzy/share/rviz_2d_overlay_msgs/cmake)
+[1.469s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.615s] -- Configuring done
+[1.629s] -- Generating done
+[1.630s] -- Build files have been written to: /home/atef/fav/ros2/build/fav
+[1.640s] Invoked command in '/home/atef/fav/ros2/build/fav' returned '0': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake /home/atef/fav/ros2/src/fav/fav --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atef/fav/ros2/install/fav
+[1.642s] Invoking command in '/home/atef/fav/ros2/build/fav': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --build /home/atef/fav/ros2/build/fav -- -j6 -l6
+[1.721s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_marker_publisher.dir/src/robot_marker_publisher.cpp.o[0m
+[1.726s] [ 50%] [32mBuilding CXX object CMakeFiles/scenario_node.dir/src/scenario/scenario_node.cpp.o[0m
+[11.575s] [ 75%] [32m[1mLinking CXX executable robot_marker_publisher[0m
+[11.811s] [ 75%] Built target robot_marker_publisher
+[20.232s] [100%] [32m[1mLinking CXX executable scenario_node[0m
+[20.496s] [100%] Built target scenario_node
+[20.507s] Invoked command in '/home/atef/fav/ros2/build/fav' returned '0': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --build /home/atef/fav/ros2/build/fav -- -j6 -l6
+[20.552s] Invoking command in '/home/atef/fav/ros2/build/fav': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --install /home/atef/fav/ros2/build/fav
+[20.568s] -- Install configuration: ""
+[20.569s] -- Execute custom install script
+[20.569s] -- Symlinking: /home/atef/fav/ros2/install/fav/lib/fav/scenario_node
+[20.586s] -- Symlinking: /home/atef/fav/ros2/install/fav/lib/fav/robot_marker_publisher
+[20.596s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/scenario.launch.py
+[20.605s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation.launch.py
+[20.613s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_keyboard_control.launch.py
+[20.622s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_tags.launch.py
+[20.630s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/launch/simulation_with_tags_and_keyboard_control.launch.py
+[20.647s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/package_run_dependencies/fav
+[20.663s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/parent_prefix_path/fav
+[20.681s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/ament_prefix_path.sh
+[20.699s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/ament_prefix_path.dsv
+[20.708s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/path.sh
+[20.716s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/environment/path.dsv
+[20.725s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.bash
+[20.736s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.sh
+[20.754s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.zsh
+[20.767s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/local_setup.dsv
+[20.782s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/package.dsv
+[20.791s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/ament_index/resource_index/packages/fav
+[20.800s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/cmake/favConfig.cmake
+[20.809s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/cmake/favConfig-version.cmake
+[20.818s] -- Symlinking: /home/atef/fav/ros2/install/fav/share/fav/package.xml
+[20.839s] Invoked command in '/home/atef/fav/ros2/build/fav' returned '0': AMENT_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atef/fav/ros2/install/scenario_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/atef/fav/ros2/install/scenario_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atef/fav/ros2/install/scenario_msgs/lib/python3.12/site-packages:${PYTHONPATH} /bin/cmake --install /home/atef/fav/ros2/build/fav

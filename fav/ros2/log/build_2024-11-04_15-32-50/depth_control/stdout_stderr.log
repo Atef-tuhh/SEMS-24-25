@@ -1,0 +1,42 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/atef/fav/ros2/build/depth_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/lib/depth_control/depth_calculator.py
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/lib/depth_control/depth_controller.py
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/lib/depth_control/depth_setpoint.py
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/launch/depth_calculator.launch.py
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/launch/depth_control_full.launch.py
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/ament_index/resource_index/package_run_dependencies/depth_control
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/ament_index/resource_index/parent_prefix_path/depth_control
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/path.sh
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/environment/path.dsv
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.bash
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.sh
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.zsh
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/local_setup.dsv
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/package.dsv
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/ament_index/resource_index/packages/depth_control
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/cmake/depth_controlConfig.cmake
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/cmake/depth_controlConfig-version.cmake
+-- Symlinking: /home/atef/fav/ros2/install/depth_control/share/depth_control/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/atef/fav/ros2/build/scenario_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/scenario_msgs -- -j6 -l6
+Invoked command in '/home/atef/fav/ros2/build/scenario_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --build /home/atef/fav/ros2/build/scenario_msgs -- -j6 -l6
+Invoking command in '/home/atef/fav/ros2/build/scenario_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/scenario_msgs
+Invoked command in '/home/atef/fav/ros2/build/scenario_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /bin/cmake --install /home/atef/fav/ros2/build/scenario_msgs
